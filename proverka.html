@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="./img/logo.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KYTYZASteam</title>
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/timer.css">
+</head>
+<body>
+    <div class="timer-container">
+        <svg class="progress-ring" width="100" height="100">
+            <circle class="progress-ring__circle" stroke="rgb(0, 217, 255)" stroke-width="5" fill="transparent" r="45" cx="50" cy="50"/>
+        </svg>
+        <div class="inside-circle">
+            <span id="timer">10:00</span>
+            <svg id="checkmark" width="50" height="50" viewBox="0 0 24 24" style="display: none;">
+                <path fill="green" d="M20.285,6.281l-10.285,10.299l-5.285-5.299l1.426-1.407l3.859,3.888l8.854-8.872z"/>
+            </svg>
+        </div>
+    </div>
+    <p class="pp" id="check-status">Проверка оплаты</p>
+    <div class="payment-confirmation" id="payment-confirmation">
+        <p>Оплачено</p>
+        <button onclick="window.location.href='index.html'">На главную</button>
+    </div>
+    <script src="./js/timer.js"></script>
+</body>
+</html>

@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="./img/logo.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KYTYZASteam</title>
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/main1.css">
+    <link rel="stylesheet" href="./css/neon.css">
+    <link rel="stylesheet" href="./css/main2.css">
+    <link rel="stylesheet" href="./css/fotter.css">
+   
+</head>
+<body>
+    <div id="top"></div>
+    <header class="header" id="header">
+
+        <div class="container header-wrap">
+            <a href="" onclick="scrollToTop(); return false;">KYTYZASteam</a>
+            <nav>
+                <ul>
+                    <li><a href="">Пополнить Steam</a></li>
+                    <li><a href="#instr">Как пополнить Steam</a></li>
+                    <li><a href="">Подарочные карты</a></li>
+                    <li><a href="#faqq">Вопросы</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <main>
+        <div class="whay">
+            <p><span class="blue-text">KYTYZASTEAM</span> <br>МОМЕНТАЛЬНОЕ <br>ПОПОЛНЕНИЕ <span class="blue-text">STEAM</span></p>
+            <h1>Только для аккаунтов из России и стран СНГ</h1>
+        </div>
+        <div class="neon-container">
+            <div class="neon">
+                <div class="circle left">
+                    <img src="./img/gtaman.png" alt="Image 3">
+                </div>
+                <div class="circle right">
+                    <div class="double-image-container">
+                        <img src="./img/cs.png" alt="Image 1" class="first">
+                        <img src="./img/steamproz.png" alt="Image 2" class="second">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper" id="popol">
+            <form id="replenish-form">
+                <div class="imput-box">
+                    <input type="text" placeholder="Логин" required>
+                </div>
+                <div class="imput-box">
+                    <input type="number" id="summa" placeholder="Ввидите сумму пополнения (руб.)" required>
+                </div>
+                <div class="imput-box">
+                    <input type="email" placeholder="Ввидите email" required>
+                </div>
+                <div class="potver">
+                    <label><input type="checkbox" required>Я подтверждаю, что указал логин, а не никнейм</label>
+                </div>
+                <button type="submit" class="btn">Пополнить</button>
+            </form>
+            <div class="info-content">
+                <div>Логин, это то, что вы указываете при входе в Steam, он уникален и НЕ является никнеймом. Если вы укажите неверный логин, то средства уйдут другому пользователю. <br><a href="https://store.steampowered.com/account/">Узнать логин</a></div>
+                <div>Сумма: <span id="summavs">0.00</span> руб.</div>
+                <div>Комиссия 20%: <span id="comuss">0.00</span> руб.</div>
+                <div>Итог оплаты: <span id="tootal">0.00</span> руб.</div>
+            </div>
+        </div>
+
+        <div id="instr">
+
+            <div class="instruktion">
+                <div class="teakst">
+                    <h2>Инструкция</h2>
+                    <p>Как пополнить Steam за 5 минут ? </p>
+                </div>
+                <div class="hh">
+                    <h1>1</h1> 
+                </div>
+                <div class="logins">
+                    <img src="./img/log.png" alt="">
+                    <p>Укажите свой логин Steam</p>
+                </div>
+            </div>
+            <div class="instruktion2">
+                <div class="hhh">
+                    <h1>2</h1>
+                </div>
+                <div class="sumnn">
+                    <img src="./img/summ.jpg" alt="">
+                </div>
+                <div class="ppp">
+                    <p>Введите желаемую сумму для пополнения вашего аккаунта</p>
+                </div>
+            </div>
+            <div class="instruktion3">
+                <div class="hhhh">
+                    <h1>3</h1>
+                </div>
+                <div class="pod">
+                    <img src="./img/pot.jpg" alt="">
+                </div>
+                <div class="pppp">
+                    <p>Убедитесь, что указали логин, а не никнейм <br>и подтвердите это с помощью галочки</p>
+                </div>
+            </div>
+            <div class="instruktion4">
+                <div class="blurry-circle"></div>
+                <div class="hhhha">
+                    <h1>4</h1>
+                </div>
+                <div class="qre">
+                    <img src="./img/qre.jpg" alt="">
+                </div>
+                <div class="aads">
+                    <p>Отсканируйте QR и видите ТОЧНУЮ сумму пополнения</p>
+                </div>
+            </div>
+            <div class="instruktion5">
+                <div class="blurry-circle"></div>
+                <div class="hhhhh">
+                    <h1>5</h1>
+                </div>
+                <div class="gt">
+                    <img src="./img/gtawomen.png" alt="">
+                </div>
+                <div class="st">
+                    <img src="./img/steam.png" alt="">
+                </div>
+                <div class="aad">
+                    <p>НАСЛАЖДАЙТЕСЬ <br>КОНТЕНТОМ STEAM БЕЗ ОГРАНИЧЕНИЙ</p>
+                </div>
+            </div>
+            <button class="popolnit" onclick="scrollToTop(); return false;">Пополнить Steam</button>
+        </div>
+    </main>
+    <footer>
+        <div class="faqd" id="faqq">
+            <section>
+                <h2 class="titles">FAQs</h2>
+
+                <div class="faq">
+                    <div class="question">
+                        <h3>Есть ли лимиты на сумму пополнения?</h3>
+                    </div>
+
+                    <svg width="15" height="10" viewBox="0 0 42 25">
+                        <path d="M3 3L21 23L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                    </svg>
+
+                    <div class="answer">
+                        <p>
+                            · Да, минимальная сумма пополнения аккаунта – 100 рублей. Максимальная сумма пополнения аккаунта за одну транзакци - 10 000 рублей <br>
+                            · Обратите внимание, что существует лимит в $500 на максимальное пополнение баланса Steam за 24 часа – равен 500$ <br>
+                            · Данное ограничение ограничение распространяется на все способы пополнения. Если вы где-то уже пополнили ваш Steam на сумму $500, наше пополнение может не пройти в связи с достигнутым лимитом!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq">
+                    <div class="question">
+                        <h3>Аккаунты каких стран можно пополнить?</h3>
+                    </div>
+
+                    <svg width="15" height="10" viewBox="0 0 42 25">
+                        <path d="M3 3L21 23L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                    </svg>
+
+                    <div class="answer">
+                        <p>
+                            · Пополнение возможно для аккаунтов России, Казахстана, Беларуси. На KZ аккаунт деньги будут зачислены в Тенге - курс плавающий<br>
+                              ВНИМАНИЕ: пополнение аккаунтов из Крыма, Донецкой и Луганской областей временно недоступно
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq">
+                    <div class="question">
+                        <h3>Что такое логин в Steam?</h3>
+                    </div>
+
+                    <svg width="15" height="10" viewBox="0 0 42 25">
+                        <path d="M3 3L21 23L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                    </svg>
+
+                    <div class="answer">
+                        <p>
+                            · Логин — это то, что вы вводите при авторизации, у каждого пользователя он уникальный, а никнейм вы можете менять по своему усмотрению.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq">
+                    <div class="question">
+                        <h3>Могу ли я пополнить баланс нового или ранее не пополнявшегося аккаунта?</h3>
+                    </div>
+
+                    <svg width="15" height="10" viewBox="0 0 42 25">
+                        <path d="M3 3L21 23L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                    </svg>
+
+                    <div class="answer">
+                        <p>
+                            · Да, но обратите внимание, что при совершении первого пополнения аккаунта Steam, валюта аккаунта может смениться на одну из списка ($, ₸, € и другие). Страна аккаунта тоже будет изменена автоматически.<br>
+                            · В этом случае цены на внутренние товары Steam будут пересчитываться в валюту аккаунта ($, ₸, € и другие), а не ₽ (рубли). Пожалуйста, учитывайте это при пополнении!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq">
+                    <div class="question">
+                        <h3>Пришла сумма меньше заявленной</h3>
+                    </div>
+
+                    <svg width="15" height="10" viewBox="0 0 42 25">
+                        <path d="M3 3L21 23L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                    </svg>
+
+                    <div class="answer">
+                        <p>
+                            · Для пополнения нам приходится конвертировать средства в разные валюты.<br>
+                            · Иногда сумма может отличаться на 1-5% от указанной.<br>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq">
+                    <div class="question">
+                        <h3>Деньги не были зачислены на баланс</h3>
+                    </div>
+
+                    <svg width="15" height="10" viewBox="0 0 42 25">
+                        <path d="M3 3L21 23L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                    </svg>
+
+                    <div class="answer">
+                        <p>
+                            · Если Вы указали верно ЛОГИН (это не никнейм) и баланс Вашего аккаунта - рубли (₽), пополнение происходит в течение 2-5 минут. Если Вам не поступили средства на баланс в течение часа, пожалуйста, обратитесь в Техническую поддержку
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq">
+                    <div class="question">
+                        <h3>Возврат средств</h3>
+                    </div>
+
+                    <svg width="15" height="10" viewBox="0 0 42 25">
+                        <path d="M3 3L21 23L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                    </svg>
+
+                    <div class="answer">
+                        <p>
+                            · Если вы проигнорировали требования к аккаунту и все же попытались отправить себе средства, то они не дойдут. В случае если регион аккаунта Steam не Россия (Рубли), Беларусь (Беларусские рубли), Казахстан (Тенге) возврат невозможен по причине невозможности возврата денежных средств платёжной системой.<br>
+                            · Также, если логин был указан неверно, деньги уйдут другому пользователю и не будут подлежать возврату.
+                            
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </footer>
+    <script src="./js/oplata.js"></script>
+    <script src="./js/header.js"></script>
+    <script src="./js/ani.js"></script>
+    <script src="./js/footer.js"></script>
+    <script>
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }
+    
+    </script>
+    
+    <script>
+    document.getElementById('replenish-form').addEventListener('submit', function(event) {
+    const login = document.getElementById('login').value;
+    const summa = document.getElementById('summa').value;
+    const email = document.getElementById('email').value;
+    const confirmation = document.getElementById('confirmation').checked;
+
+    if (!login || !summa || !email || !confirmation) {
+        event.preventDefault();
+        alert('Пожалуйста, заполните все поля и подтвердите, что указали логин, а не никнейм.');
+    } else {
+        window.location.href = './oplata.html';
+    }
+});
+    </script>
+</body>
+</html>
